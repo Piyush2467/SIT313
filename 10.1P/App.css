@@ -1,0 +1,138 @@
+/* --- Global Styles --- */
+* {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+}
+
+/* --- Header Section --- */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(203, 202, 202);
+  padding: 10px;
+}
+
+.search-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  width: 90%;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  background-color: #1d6570ff;
+  padding: 8px 8px;
+  border-radius: 5px;
+}
+
+.nav-links a:hover {
+  background-color: black;
+  color: white;
+}
+
+.header-banner {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* --- Newsletter Section --- */
+.newsletter {
+  background-color: rgba(199, 197, 197, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.newsletter-input {
+  padding: 10px;
+  width: 260px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #999;
+}
+
+.newsletter-button {
+  background-color: rgba(138, 137, 137, 1);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 8px;
+  cursor: pointer;
+}
+
+.newsletter-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.newsletter-button h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.newsletter-message {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* --- Footer Section --- */
+.footer {
+  background: #1d6570ff;
+  padding: 15px;
+  margin-top: 50px;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-content h1 {
+  font-size: 1.2rem;
+}
+
+.social-icons img {
+  width: 24px;
+  margin: 0 5px;
+}
+
+.footer-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-links {
+  text-align: center;
+  margin-top: 10px;
+}
