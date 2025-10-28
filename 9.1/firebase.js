@@ -1,18 +1,22 @@
-// src/firebase/firebase.js
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBoAKcutcnU_ZF7uNGaORnyNzlBtpO70",
-  authDomain: "task-wek-7.firebseapp.com",
-  projectId: "task-week-7",
-  storageBucket: "task-week-7.firebasestage.app",
-  messagingSenderId: "30587415407",
-  appId: "1:305874154057:web:60fb7152a47c25394598"
+  apiKey: "AIzaSyD8loaHDQlMek29HNLvOzeI-VF7EuyUJF4",
+  authDomain: "task-7-c8704.firebaseapp.com",
+  projectId: "task-7-c8704",
+  storageBucket: "task-7-c8704.firebasestorage.app",
+  messagingSenderId: "421318253693",
+  appId: "1:421318253693:web:512516ffc590e81990a514",
+  measurementId: "G-2C68PKN8B1"
 };
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app);
 
-export const db = getFirestore(app);
+// Initialize services
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+export { auth, db };
