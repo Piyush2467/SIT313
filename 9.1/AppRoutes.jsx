@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
-import { auth } from "../firebase/firebase"; // Assuming firebase.js is in ../firebase/
+import { auth } from "../firebase/firebase"; // Assuming firebase.jsx is in ../firebase/
 import Navbar from "../components/Navbar";
 import Login from "../components/Login";
 import SignUp from "../components/SignUp";
@@ -59,4 +59,5 @@ const ProtectedRoute = ({ currentUser, children }) => {
     return <Navigate to="/login" replace />;
   }
   return children;
+
 };
