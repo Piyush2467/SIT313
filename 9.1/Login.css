@@ -1,3 +1,73 @@
+/* === LOGIN PAGE CSS === */
+.page-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.form-box {
+  width: 350px;
+  padding: 30px 25px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.form-box h2 {
+  margin-bottom: 25px;
+  color: #1976d2;
+  font-size: 22px;
+}
+
+.form-box input {
+  display: block;
+  width: 90%;
+  margin: 12px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: var(--input-bg);
+  font-size: 14px;
+}
+
+.form-box button {
+  width: 100%;
+  padding: 12px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.form-box button:hover {
+  background: var(--primary-dark);
+}
+
+.signup-link {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+
+.signup-link a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
 .form-container {
   width: 350px;
   margin: 50px auto;

@@ -43,6 +43,6 @@ export default function Navbar({ currentUser }) {
           <Link to="/login">Login</Link>
         )}
       </div>
-    </nav>
-  );
+    </nav>
+  );
 }

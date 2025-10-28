@@ -96,6 +96,6 @@ export default function SignUp() {
           <button type="submit">Create</button>
         </form>
       </div>
-    </div>
-  );
+    </div>
+  );
 }
